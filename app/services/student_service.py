@@ -1,4 +1,5 @@
 # app/services/student_service.py
+# type: ignore
 from sqlalchemy.orm import Session
 from typing import List, Optional, Dict, Any
 from app.models.student import Student

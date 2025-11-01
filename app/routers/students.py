@@ -1,4 +1,5 @@
 # app/routers/students.py
+#type: ignore
 from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy.orm import Session
 from typing import List, Optional
@@ -120,6 +121,6 @@ def api_recalculate(student_id: int, db: Session = Depends(get_db)):
         raise HTTPException(status_code=404, detail="Student not found")
     return updated
 
-# ------------------------------------------------------------#
+ 
 
 

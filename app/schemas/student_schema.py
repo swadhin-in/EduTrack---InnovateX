@@ -1,4 +1,5 @@
-from pydantic import BaseModel, EmailStr, Field, confloat, conint
+import myapp.signals # type: ignore
+from pydantic import BaseModel, EmailStr #, Field, confloat, conint
 from typing import Optional 
 from datetime import datetime 
 

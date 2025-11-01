@@ -1,3 +1,4 @@
+# type: ignore
 from sqlalchemy import Column, DateTime, Integer, String, Float, ForeignKey
 from sqlalchemy.sql import func
 from app.db.base import Base

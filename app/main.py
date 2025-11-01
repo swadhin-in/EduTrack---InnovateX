@@ -1,4 +1,7 @@
+# type: ignore
+
 from fastapi import FastAPI
+
 from app.routers import auth, students, dropout, recommend
 from app.db.session import engine
 from app.models import user, student, dropout as dropout_model

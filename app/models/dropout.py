@@ -1,3 +1,4 @@
+# type: ignore
 from sqlalchemy import Column, Integer, Float, String
 from app.db.base import Base
 

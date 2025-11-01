@@ -1,4 +1,8 @@
-from pydantic import BaseSettings
+# all important settings and credentials are  stored here 
+#future imply: from app.config import settings 
+               # engine = create_engine(settings.DATABASE_URL)
+# type: ignore
+from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
     DATABASE_URL: str = "postgresql://postgres:password@localhost/edutrack"

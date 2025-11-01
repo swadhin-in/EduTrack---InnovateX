@@ -1,3 +1,4 @@
+#type: ignore
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
 from app.schemas.dropout_schema import DropoutPrediction, DropoutPredictionCreate
